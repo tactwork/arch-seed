@@ -1,0 +1,26 @@
+<md-card class="md-card-3dp" flex-sm="80" flex-gt-sm="70" flex-gt-md="60" layout layout-padding layout-margin layout-align="center center">
+    <div flex="60" layout-aling="space-around center">
+        <h2>Login Page</h2>
+
+        <form>
+            <md-input-container>
+                <label>email</label>
+                <input type="text" ng-model="email" />
+            </md-input-container>
+            <md-input-container>
+                <label>password</label>
+                <input type="password" ng-model="pass" />
+            </md-input-container>
+            <md-input-container ng-cloak ng-show="createMode">
+                <label>confirm pass</label>
+                <input type="password" ng-model="confirm" />
+            </md-input-container>
+            <md-button ng-click="login(email, pass)" ng-hide="createMode">Log In</md-button>
+            <md-button class="md-button md-raised" ng-click="createMode = true" ng-hide="createMode">Register</md-button>
+            <md-button class="md-button md-raised" ng-cloak ng-show="createMode" ng-click="createAccount()">Create Account</md-button>
+            <md-button class="md-button md-warn" ng-cloak ng-show="createMode" ng-click="createMode = false">Cancel</md-button>
+
+            <p ng-show="err" class="error">{{err}}</p>
+        </form>
+    </div>
+</md-card>
