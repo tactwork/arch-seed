@@ -77,10 +77,17 @@ header :nth-child(3) {
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
 }
-
+md-toolbar {
+  background: url(../images/blue-grain.jpg);
+  background-repeat: repeat-x:;
+}
 md-content {
  background-color: transparent;
  color: rgba(62, 39, 35, 0.87);
+  //background: url(../grain.png), linear-gradient(rgba(204, 204, 204, 0.31), rgba(163, 160, 160, 0.45));
+  //background: rgba(204, 204, 204, 0.31);
+  //background: rgba(163, 160, 160, 0.45);
+  //background: radial-gradient(rgba(204, 204, 204, 0.31), rgba(163, 160, 160, 0.45));
 }
 
 ::-webkit-scrollbar {
@@ -95,7 +102,7 @@ md-sidenav.md-sidenav-left {
 md-sidenav.md-sidenav-right {
   background: #181818;
   md-content {
-    background: transparent;
+    background-color: #181818 !important;
   }
 }
 
