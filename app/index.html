@@ -39,34 +39,18 @@
 
   </head>
   <body ng-controller="AppCtrl" layout="row" ng-cloak>
-    <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left">
-      <md-toolbar class="md-whiteframe-z1">
-        <div class="md-toolbar-tools">
-         <span class="warn">testing</span>
-        </div>
-      </md-toolbar>
+    <md-sidenav layout="column" class="md-sidenav-left" md-component-id="left">
+
       <ul class="menu">
         <li><a href="#/home">home</a></li>
         <li><a href="#/chat">chat</a></li>
         <li ng-hide="loggedIn"><a href="#/login">login</a></li>
         <li ng-show="loggedIn"><a href="#/account">account</a></li>
       </ul>
-      <footer>
-        <h1 class="md-display-4">W</h1>
-        <h1 class="md-display-4">O</h1>
-        <h1 class="md-display-4">R</h1>
-        <h1 class="md-display-4">K</h1>
-        <img src="/images/svg/icon.svg">
-      </footer>
     </md-sidenav>
 
     <div layout="column" flex>
-
-      <md-content ng-view>
-
-      </md-content>
-      <span flex></span>
-      <md-toolbar class="md-whiteframe-z1">
+      <md-toolbar class="md-tall md-whiteframe-z1">
         <div class="md-toolbar-tools">
           <md-button ng-click="toggleLeft()"  class="md-icon-button" aria-label="Settings">
             <md-icon md-svg-icon="navigation:ic_menu_24px"></md-icon>
@@ -83,6 +67,11 @@
           </md-button>
         </div>
       </md-toolbar>
+      <md-content ng-view>
+
+      </md-content>
+      <span flex></span>
+
     </div>
 
     <md-sidenav layout="column" class="md-sidenav-right md-whiteframe-z2" md-component-id="right" md-is-locked-open="$mdMedia('gt-md')">

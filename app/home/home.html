@@ -41,13 +41,8 @@
         </p>
       </md-card-content>
     </md-card>
-    <footer class="md-whiteframe-z4">
-      <h1 class="md-display-4">tactwork</h1>
-      <h1 class="md-display-4">tactwork</h1>
-      <h1 class="md-display-4">tactwork</h1>
-      <img src="/images/svg/icon.svg">
-    </footer>
-    <div ng-controller="BottomCtrl" class="md-padding" ng-cloak>
+
+    <div ng-controller="BottomCtrl" class="md-padding bottom-cardboard" ng-cloak>
       <h2 class="md-title">Usage</h2>
       <p>Bottom sheets can be displayed by clicking one of the buttons below.  Once shown, it can be
       dismissed by either swiping down or clicking in the shaded area.</p>
@@ -55,7 +50,7 @@
       <p>Use one of the following buttons to display a bottom sheet.</p>
       <div class="bottom-sheet-demo inset" layout="row" layout-sm="column" layout-align="center" >
         <md-button flex="50" class="md-primary md-raised" ng-click="showListBottomSheet($event)">Show as List</md-button>
-        <md-button flex="50" class="md-primary md-raised" ng-click="showGridBottomSheet($event)">Show as Grid</md-button>
+
       </div>
       <div ng-if="alert">
         <br/>
@@ -65,6 +60,6 @@
       </div>
     </div>
   </section>
-<md-button class="md-fab md-primar md-fab-bottom-right" aria-label="Forward">
+<md-button class="md-fab md-primary md-fab-bottom-right" aria-label="Forward">
   <md-icon md-svg-icon="navigation:ic_arrow_forward_24px"></md-icon>
 </md-button>
