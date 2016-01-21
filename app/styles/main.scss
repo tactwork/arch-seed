@@ -100,12 +100,14 @@ h2 {
   display: none !important;
 }
 
+
 md-content {
-
-
-  /*
-  background: url(../grain.png), linear-gradient(rgba(204, 204, 204, 0.31), rgba(163, 160, 160, 0.45));
   background: rgba(204, 204, 204, 0.31);
+}
+/*
+
+  background: url(../grain.png), linear-gradient(rgba(204, 204, 204, 0.31), rgba(163, 160, 160, 0.45));
+
   background: rgba(163, 160, 160, 0.45);
   background: radial-gradient(rgba(204, 204, 204, 0.31), rgba(163, 160, 160, 0.45));
   background-image:
@@ -113,20 +115,18 @@ md-content {
       45deg,
       red, #f06d06
     );
-  */
-}
+*/
 
 ::-webkit-scrollbar {
   display: none;
 }
-
 md-sidenav.md-sidenav-left {
 
 }
 md-sidenav.md-sidenav-right {
   width: 33%;
   min-width: 33%;
-  background-color: rgb(196, 68, 72);
+  background-color: rgba(204, 204, 204, 0.31);
 }
 
 .md-button.md-primary {

@@ -159,10 +159,10 @@
     .run(function($http, $templateCache){
       // Pre-fetch icons sources by URL and cache in the $templateCache...
       // subsequent $http calls will look there first.
-      var urls = [ 'images/icons/svg-sprite-navigation.svg', 'images/icons/svg-sprite-action.svg', 'images/icons/svg-sprite-action.svg', 'images/icons/svg-sprite-av.svg', 'images/icons/svg-sprite-content.svg', 'images/icons/svg-sprite-file.svg', 'images/icons/svg-sprite-device.svg', 'images/icons/svg-sprite-social.svg', 'images/icons/svg-sprite-editor.svg', 'images/icons/svg-sprite-image.svg',
- 'images/svg/avatars.svg'];
+      var urls = [ 'images/icons/svg-sprite-navigation.svg', 'images/icons/svg-sprite-action.svg', 'images/icons/svg-sprite-action.svg', 'images/icons/svg-sprite-av.svg', 'images/icons/svg-sprite-content.svg', 'images/icons/svg-sprite-file.svg', 'images/icons/svg-sprite-device.svg', 'images/icons/svg-sprite-social.svg', 'images/icons/svg-sprite-editor.svg', 'images/icons/svg-sprite-image.svg', 'images/svg/avatars.svg'];
       angular.forEach(urls, function(url) {
         $http.get(url, {cache: $templateCache});
       });
     })
+
 })(angular);
