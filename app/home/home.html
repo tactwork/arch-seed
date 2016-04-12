@@ -1,46 +1,7 @@
 <!--Note: for scrollShrink to work, the toolbar must be a sibling of a md-content element, placed before it.-->
 
   <section layout="column">
-    <md-card class="md-whiteframe-z3">
-      <md-card-title>
-        <md-card-title-text>
-          <span class="md-headline"><strong>SERVER STATUS:</strong></span>
-          <h1>ONLINE <md-icon class="s48" md-svg-icon="navigation:ic_arrow_forward_24px"></md-icon> </h1>
-        </md-card-title-text>
-        <md-card-title-media>
-          <div class="md-media-sm card-media">
-            <img src="../images/owl.jpg">
-          </div>
-        </md-card-title-media>
-      </md-card-title>
-    </md-card>
 
-    <md-card class="md-whiteframe-z3">
-      <img ng-src="/images/test.png" class="md-card-image" height="500px;" alt="Washed Out">
-      <md-card-title>
-        <md-card-title-text>
-          <span class="md-headline">In-card mixed actions</span>
-        </md-card-title-text>
-      </md-card-title>
-      <md-card-actions layout="row" layout-align="start center">
-        <md-card-icon-actions>
-          <md-button class="md-icon-button" aria-label="Favorite">
-            <md-icon md-svg-icon="social:ic_favorite_24px"></md-icon>
-          </md-button>
-          <md-button class="md-icon-button md-raised" aria-label="Share">
-            <md-icon md-svg-icon="navigation:ic_arrow_forward_24px"></md-icon>
-          </md-button>
-        </md-card-icon-actions>
-        <md-button>Action 1</md-button>
-        <md-button>Action 2</md-button>
-      </md-card-actions>
-      <md-card-content>
-        <p>
-          The titles of Washed Out's breakthrough song and the first single from Paracosm share the
-          two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
-        </p>
-      </md-card-content>
-    </md-card>
 
     <div ng-controller="BottomCtrl" class="md-padding bottom-cardboard" ng-cloak>
       <h2 class="md-title">Usage</h2>
@@ -52,6 +13,9 @@
         <md-button flex="50" class="md-primary md-raised" ng-click="showListBottomSheet($event)">Show as List</md-button>
 
       </div>
+      <md-button class="md-fab md-primary md-fab-bottom-right" ng-click="showListBottomSheet($event)" aria-label="Forward">
+        <md-icon md-svg-icon="navigation:ic_arrow_upward_24px"></md-icon>
+      </md-button>
       <div ng-if="alert">
         <br/>
         <b layout="row" layout-align="center center" class="md-padding">
@@ -60,6 +24,3 @@
       </div>
     </div>
   </section>
-<md-button class="md-fab md-primary md-fab-bottom-right" aria-label="Forward">
-  <md-icon md-svg-icon="navigation:ic_arrow_forward_24px"></md-icon>
-</md-button>

@@ -1,77 +1,348 @@
+
+$red-50:                    #fde0dc;
+$red-100:                   #f9bdbb;
+$red-200:                   #f69988;
+$red-300:                   #f36c60;
+$red-400:                   #e84e40;
+$red-500:                   #e51c23;
+$red-600:                   #dd191d;
+$red-700:                   #d01716;
+$red-800:                   #c41411;
+$red-900:                   #b0120a;
+$red-a100:                  #ff7997;
+$red-a200:                  #ff5177;
+$red-a400:                  #ff2d6f;
+$red-a700:                  #e00032;
+
+// Pink
+$pink-50:                   #fce4ec;
+$pink-100:                  #f8bbd0;
+$pink-200:                  #f48fb1;
+$pink-300:                  #f06292;
+$pink-400:                  #ec407a;
+$pink-500:                  #e91e63;
+$pink-600:                  #d81b60;
+$pink-700:                  #c2185b;
+$pink-800:                  #ad1457;
+$pink-900:                  #880e4f;
+$pink-a100:                 #ff80ab;
+$pink-a200:                 #ff4081;
+$pink-a400:                 #f50057;
+$pink-a700:                 #c51162;
+
+// Purple
+$purple-50:                 #f3e5f5;
+$purple-100:                #e1bee7;
+$purple-200:                #ce93d8;
+$purple-300:                #ba68c8;
+$purple-400:                #ab47bc;
+$purple-500:                #9c27b0;
+$purple-600:                #8e24aa;
+$purple-700:                #7b1fa2;
+$purple-800:                #6a1b9a;
+$purple-900:                #4a148c;
+$purple-a100:               #ea80fc;
+$purple-a200:               #e040fb;
+$purple-a400:               #d500f9;
+$purple-a700:               #aa00ff;
+
+// Deep Purple
+$deep-purple-50:            #ede7f6;
+$deep-purple-100:           #d1c4e9;
+$deep-purple-200:           #b39ddb;
+$deep-purple-300:           #9575cd;
+$deep-purple-400:           #7e57c2;
+$deep-purple-500:           #673ab7;
+$deep-purple-600:           #5e35b1;
+$deep-purple-700:           #512da8;
+$deep-purple-800:           #4527a0;
+$deep-purple-900:           #311b92;
+$deep-purple-a100:          #b388ff;
+$deep-purple-a200:          #7c4dff;
+$deep-purple-a400:          #651fff;
+$deep-purple-a700:          #6200ea;
+
+// Indigo
+$indigo-50:                 #e8eaf6;
+$indigo-100:                #c5cae9;
+$indigo-200:                #9fa8da;
+$indigo-300:                #7986cb;
+$indigo-400:                #5c6bc0;
+$indigo-500:                #3f51b5;
+$indigo-600:                #3949ab;
+$indigo-700:                #303f9f;
+$indigo-800:                #283593;
+$indigo-900:                #1a237e;
+$indigo-a100:               #8c9eff;
+$indigo-a200:               #536dfe;
+$indigo-a400:               #3d5afe;
+$indigo-a700:               #304ffe;
+
+// Blue
+$blue-50:                   #E3F2FD;
+$blue-100:                  #BBDEFB;
+$blue-200:                  #90CAF9;
+$blue-300:                  #64B5F6;
+$blue-400:                  #42A5F5;
+$blue-500:                  #2196F3;
+$blue-600:                  #1E88E5;
+$blue-700:                  #1976D2;
+$blue-800:                  #1565C0;
+$blue-900:                  #0D47A1;
+$blue-a100:                 #82B1FF;
+$blue-a200:                 #448AFF;
+$blue-a400:                 #2979FF;
+$blue-a700:                 #2962FF;
+
+// Light Blue
+$light-blue-50:             #e1f5fe;
+$light-blue-100:            #b3e5fc;
+$light-blue-200:            #81d4fa;
+$light-blue-300:            #4fc3f7;
+$light-blue-400:            #29b6f6;
+$light-blue-500:            #03a9f4;
+$light-blue-600:            #039be5;
+$light-blue-700:            #0288d1;
+$light-blue-800:            #0277bd;
+$light-blue-900:            #01579b;
+$light-blue-a100:           #80d8ff;
+$light-blue-a200:           #40c4ff;
+$light-blue-a400:           #00b0ff;
+$light-blue-a700:           #0091ea;
+
+// Cyan
+$cyan-50:                   #e0f7fa;
+$cyan-100:                  #b2ebf2;
+$cyan-200:                  #80deea;
+$cyan-300:                  #4dd0e1;
+$cyan-400:                  #26c6da;
+$cyan-500:                  #00bcd4;
+$cyan-600:                  #00acc1;
+$cyan-700:                  #0097a7;
+$cyan-800:                  #00838f;
+$cyan-900:                  #006064;
+$cyan-a100:                 #84ffff;
+$cyan-a200:                 #18ffff;
+$cyan-a400:                 #00e5ff;
+$cyan-a700:                 #00b8d4;
+
+// Teal
+$teal-50:                   #e0f2f1;
+$teal-100:                  #b2dfdb;
+$teal-200:                  #80cbc4;
+$teal-300:                  #4db6ac;
+$teal-400:                  #26a69a;
+$teal-500:                  #009688;
+$teal-600:                  #00897b;
+$teal-700:                  #00796b;
+$teal-800:                  #00695c;
+$teal-900:                  #004d40;
+$teal-a100:                 #a7ffeb;
+$teal-a200:                 #64ffda;
+$teal-a400:                 #1de9b6;
+$teal-a700:                 #00bfa5;
+
+// Green
+$green-50:                  #d0f8ce;
+$green-100:                 #a3e9a4;
+$green-200:                 #72d572;
+$green-300:                 #42bd41;
+$green-400:                 #2baf2b;
+$green-500:                 #259b24;
+$green-600:                 #0a8f08;
+$green-700:                 #0a7e07;
+$green-800:                 #056f00;
+$green-900:                 #0d5302;
+$green-a100:                #a2f78d;
+$green-a200:                #5af158;
+$green-a400:                #14e715;
+$green-a700:                #12c700;
+
+// Light Green
+$light-green-50:            #f1f8e9;
+$light-green-100:           #dcedc8;
+$light-green-200:           #c5e1a5;
+$light-green-300:           #aed581;
+$light-green-400:           #9ccc65;
+$light-green-500:           #8bc34a;
+$light-green-600:           #7cb342;
+$light-green-700:           #689f38;
+$light-green-800:           #558b2f;
+$light-green-900:           #33691e;
+$light-green-a100:          #ccff90;
+$light-green-a200:          #b2ff59;
+$light-green-a400:          #76ff03;
+$light-green-a700:          #64dd17;
+
+// Lime
+$lime-50:                   #f9fbe7;
+$lime-100:                  #f0f4c3;
+$lime-200:                  #e6ee9c;
+$lime-300:                  #dce775;
+$lime-400:                  #d4e157;
+$lime-500:                  #cddc39;
+$lime-600:                  #c0ca33;
+$lime-700:                  #afb42b;
+$lime-800:                  #9e9d24;
+$lime-900:                  #827717;
+$lime-a100:                 #f4ff81;
+$lime-a200:                 #eeff41;
+$lime-a400:                 #c6ff00;
+$lime-a700:                 #aeea00;
+
+// Yellow
+$yellow-50:                 #fffde7;
+$yellow-100:                #fff9c4;
+$yellow-200:                #fff59d;
+$yellow-300:                #fff176;
+$yellow-400:                #ffee58;
+$yellow-500:                #ffeb3b;
+$yellow-600:                #fdd835;
+$yellow-700:                #fbc02d;
+$yellow-800:                #f9a825;
+$yellow-900:                #f57f17;
+$yellow-a100:               #ffff8d;
+$yellow-a200:               #ffff00;
+$yellow-a400:               #ffea00;
+$yellow-a700:               #ffd600;
+
+// Amber
+$amber-50:                  #fff8e1;
+$amber-100:                 #ffecb3;
+$amber-200:                 #ffe082;
+$amber-300:                 #ffd54f;
+$amber-400:                 #ffca28;
+$amber-500:                 #ffc107;
+$amber-600:                 #ffb300;
+$amber-700:                 #ffa000;
+$amber-800:                 #ff8f00;
+$amber-900:                 #ff6f00;
+$amber-a100:                #ffe57f;
+$amber-a200:                #ffd740;
+$amber-a400:                #ffc400;
+$amber-a700:                #ffab00;
+
+// Orange
+$orange-50:                 #fff3e0;
+$orange-100:                #ffe0b2;
+$orange-200:                #ffcc80;
+$orange-300:                #ffb74d;
+$orange-400:                #ffa726;
+$orange-500:                #ff9800;
+$orange-600:                #fb8c00;
+$orange-700:                #f57c00;
+$orange-800:                #ef6c00;
+$orange-900:                #e65100;
+$orange-a100:               #ffd180;
+$orange-a200:               #ffab40;
+$orange-a400:               #ff9100;
+$orange-a700:               #ff6d00;
+
+// Deep Orange
+$deep-orange-50:            #fbe9e7;
+$deep-orange-100:           #ffccbc;
+$deep-orange-200:           #ffab91;
+$deep-orange-300:           #ff8a65;
+$deep-orange-400:           #ff7043;
+$deep-orange-500:           #ff5722;
+$deep-orange-600:           #f4511e;
+$deep-orange-700:           #e64a19;
+$deep-orange-800:           #d84315;
+$deep-orange-900:           #bf360c;
+$deep-orange-a100:          #ff9e80;
+$deep-orange-a200:          #ff6e40;
+$deep-orange-a400:          #ff3d00;
+$deep-orange-a700:          #dd2c00;
+
+// Brown
+$brown-50:                  #efebe9;
+$brown-100:                 #d7ccc8;
+$brown-200:                 #bcaaa4;
+$brown-300:                 #a1887f;
+$brown-400:                 #8d6e63;
+$brown-500:                 #795548;
+$brown-600:                 #6d4c41;
+$brown-700:                 #5d4037;
+$brown-800:                 #4e342e;
+$brown-900:                 #3e2723;
+
+// Grey
+$grey-50:                   #fafafa;
+$grey-100:                  #f5f5f5;
+$grey-200:                  #eeeeee;
+$grey-300:                  #e0e0e0;
+$grey-400:                  #bdbdbd;
+$grey-500:                  #9e9e9e;
+$grey-600:                  #757575;
+$grey-700:                  #616161;
+$grey-800:                  #424242;
+$grey-900:                  #212121;
+$black:                     #000000;
+$white:                     #ffffff;
+
+// Blue Grey
+$blue-grey-50:              #eceff1;
+$blue-grey-100:             #cfd8dc;
+$blue-grey-200:             #b0bec5;
+$blue-grey-300:             #90a4ae;
+$blue-grey-400:             #78909c;
+$blue-grey-500:             #607d8b;
+$blue-grey-600:             #546e7a;
+$blue-grey-700:             #455a64;
+$blue-grey-800:             #37474f;
+$blue-grey-900:             #263238;
 html, body {
   overflow-x: hidden;
   max-width: 100%;
   max-height: 100%;
 }
 
-/*
-.Untitled { color: rgb(24, 20, 12) };
-.Untitled { color: rgb(244, 240, 232) };
-.Untitled { color: rgb(196, 68, 72) };
-.Untitled { color: rgb(48, 132, 92) };
-.Untitled { color: rgb(240, 232, 72) };
-.Untitled { color: rgb(52, 48, 116) };
-.Untitled { color: rgb(188, 48, 108) };
-.Untitled { color: rgb(40, 116, 196) };
-.Untitled { color: rgb(24, 20, 12) };
-.Untitled { color: rgb(244, 240, 232) };
-.Untitled { color: rgb(196, 68, 72) };
-.Untitled { color: rgb(48, 132, 92) };
-.Untitled { color: rgb(240, 232, 72) };
-.Untitled { color: rgb(52, 48, 116) };
-.Untitled { color: rgb(188, 48, 108) };
-.Untitled { color: rgb(40, 116, 196) };
-*/
-.sky-gradient:active {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    opacity: 1;
-    z-index: 99;
-}
-
-/* Gradients */
-.sky-gradient-00, .sky-gradient-24 { background: #00000c; }
-.sky-gradient-01 { background: linear-gradient(to bottom, #020111 85%,#191621 100%); }
-.sky-gradient-02 { background: linear-gradient(to bottom, #020111 60%,#20202c 100%); }
-.sky-gradient-03 { background: linear-gradient(to bottom, #020111 10%,#3a3a52 100%); }
-.sky-gradient-04 { background: linear-gradient(to bottom, #20202c 0%,#515175 100%); }
-.sky-gradient-05 { background: linear-gradient(to bottom, #40405c 0%,#6f71aa 80%,#8a76ab 100%); }
-.sky-gradient-06 { background: linear-gradient(to bottom, #4a4969 0%,#7072ab 50%,#cd82a0 100%); }
-.sky-gradient-07 { background: linear-gradient(to bottom, #757abf 0%,#8583be 60%,#eab0d1 100%); }
-.sky-gradient-08 { background: linear-gradient(to bottom, #82addb 0%,#ebb2b1 100%); }
-.sky-gradient-09 { background: linear-gradient(to bottom, #94c5f8 1%,#a6e6ff 70%,#b1b5ea 100%); }
-.sky-gradient-10 { background: linear-gradient(to bottom, #b7eaff 0%,#94dfff 100%); }
-.sky-gradient-11 { background: linear-gradient(to bottom, #9be2fe 0%,#67d1fb 100%); }
-.sky-gradient-12 { background: linear-gradient(to bottom, #90dffe 0%,#38a3d1 100%); }
-.sky-gradient-13 { background: linear-gradient(to bottom, #57c1eb 0%,#246fa8 100%); }
-.sky-gradient-14 { background: linear-gradient(to bottom, #2d91c2 0%,#1e528e 100%); }
-.sky-gradient-15 { background: linear-gradient(to bottom, #2473ab 0%,#1e528e 70%,#5b7983 100%); }
-.sky-gradient-16 { background: linear-gradient(to bottom, #1e528e 0%,#265889 50%,#9da671 100%); }
-.sky-gradient-17 { background: linear-gradient(to bottom, #1e528e 0%,#728a7c 50%,#e9ce5d 100%); }
-.sky-gradient-18 { background: linear-gradient(to bottom, #154277 0%,#576e71 30%,#e1c45e 70%,#b26339 100%); }
-.sky-gradient-19 { background: linear-gradient(to bottom, #163C52 0%,#4F4F47 30%,#C5752D 60%,#B7490F 80%, #2F1107 100%); }
-.sky-gradient-20 { background: linear-gradient(to bottom, #071B26 0%,#071B26 30%,#8A3B12 80%,#240E03 100%); }
-.sky-gradient-21 { background: linear-gradient(to bottom, #010A10 30%,#59230B 80%,#2F1107 100%); }
-.sky-gradient-22 { background: linear-gradient(to bottom, #090401 50%,#4B1D06 100%); }
-.sky-gradient-23 { background: linear-gradient(to bottom, #00000c 80%,#150800 100%); }
-
-
 md-icon.s48 {
   width: 48px;
   height: 48px;
   color: #2F3BA2;
 }
+
 #tab-content-1 {
    text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
-h2 {
- font-family: 'dubtronic_inlineregular';
- font-weight: bold;
-
- text-shadow: 0 1px 3px rgba(0,0,0,.5);
+.docs-logo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.docs-logo:focus {
+  outline: none;
+}
+.docs-logo > img {
+  height: 256px;
+  width: auto;
+  display: block;
+  transform-origin: 50% 0;
+  transform: scale(1.2);
+}
+.nav-header {
+  flex-shrink: 0;
+  z-index: 2;
+}
+a.docs-logo {
+  border-bottom: none;
+}
+.docs-logotype {
+  color: #212121;
+  text-align: center;
+  font-weight: 300;
+  font-size: 48px;
+  font-family: 'Droid Serif';
+}
+md-content, md-toolbar, .nav-header, .nav-content {
+  background: url('data:image/png;base64,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');
+  background-repeat: repeat;
 
 }
+
 .gridListdemoBasicUsage md-grid-list {
   margin: 8px; }
 
@@ -100,10 +371,6 @@ h2 {
   display: none !important;
 }
 
-
-md-content {
-  background: rgba(204, 204, 204, 0.31);
-}
 /*
 
   background: url(../grain.png), linear-gradient(rgba(204, 204, 204, 0.31), rgba(163, 160, 160, 0.45));
@@ -120,15 +387,10 @@ md-content {
 ::-webkit-scrollbar {
   display: none;
 }
-md-sidenav.md-sidenav-left {
 
+md-tab {
+  max-width: 760px;
 }
-md-sidenav.md-sidenav-right {
-  width: 33%;
-  min-width: 33%;
-  background-color: rgba(204, 204, 204, 0.31);
-}
-
 .md-button.md-primary {
   background: #3F51B5;
 }
@@ -140,96 +402,7 @@ md-sidenav.md-sidenav-right {
   margin: 16px;
 }
 
-.detail-wrapper {
-  display: table;
-  width: 100%;
-  height: 66%;
-  background: no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-}
 
-
-.detail-wrapper-inner {
-  display: table-cell;
-  vertical-align: middle;
-  h1,.h1,p {
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 0.032em 0 #b0b0b0, 0px 0.15em 0.11em rgba(0,0,0,0.15), 0px 0.25em 0.021em rgba(0,0,0,0.1), 0px 0.32em 0.32em rgba(0,0,0,0.1);
-  }
-}
-
-
-section.home {
-  .h1 { padding-bottom: 15px;}
-  p {
-    font-size: 16px;
-    line-height: 2.1;
-    text-align: justify;
-    text-justify: distribute;
-    hyphen: auto;
-  }
-
-
-
-  p.short-quote {
-     text-align: center;
-     font-size: 16px;
-     margin-bottom: 3em;
-     margin-top: 2em;
-     padding: 1em 1em 1em 1em;
-     border-top: 1px solid #ccc;
-     border-bottom: 1px solid #ccc;
-  }
-
-  p.author {
-   text-align: center;
-   font-size: 16px;
-   line-height: 20px;
-   margin-bottom: 1em;
-   font-style: normal;
-  }
-  p.date-tag {
-   text-align: left;
-   font-size: 16px;
-   line-height: 1px;
-   font-style: normal;
-   padding: 15px 15px 0 15px;
-  }
-}
-
-.tag {
-  border-radius: 3px;
-  font-size: small;
-  margin-left: 3px;
-  color: #fff;
-  display: inline-block;
-  height: 26px;
-  line-height: 26px;
-  padding: 0 10px 1px 12px;
-  position: relative;
-  text-decoration: none;
-  -webkit-transition: color 0.2s;
-  float: right;
-  text-align: right;
-}
-.info {
-  background-color: #5588ff;
-}
-.life {
-  background-color: #49ab81;
-}
-.to-do {
-  background-color: #f0d264;
-}
-.news {
-  background-color: #fa5a5a;
-}
 
 
 //EXISTING LABEL FOR TANGIBLE BEFOREAUTHENTICATION IS RESOLVED

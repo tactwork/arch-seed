@@ -111,6 +111,7 @@
       // Configure URLs for icons specified by [set:]id.
       $mdIconProvider
         .defaultIconSet("./images/svg/avatars.svg", 128)
+        .icon('logo', './images/PRODUCTION.svg', 500)
         .iconSet("navigation" , "./images/icons/svg-sprite-navigation.svg", 24)
         .iconSet('action',  './images/icons/svg-sprite-action.svg',24)
         .iconSet('av',  './images/icons/svg-sprite-av.svg',24)
@@ -119,7 +120,7 @@
         .iconSet('device',  './images/icons/svg-sprite-device.svg',24)
         .iconSet('social',  './images/icons/svg-sprite-social.svg',24)
         .iconSet('editor',  './images/icons/svg-sprite-editor.svg',24)
-        .iconSet('image', './images/icons/svg-sprite-image.svg',24);
+        .iconSet('image', './images/icons/svg-sprite-image.svg',24)
     }])
 
 
@@ -131,7 +132,7 @@
             '200': '#e0e0e0',
             '300': '#EDE7F6',
             '400': '#212121',
-            '500': '263238', //teal 500
+            '500': '#3f51b5', //teal 500
             '600': '#AB1852', //darker shade of deep-purple 500 & md-hue-2
             '700': '#2A184B',
             '800': '#1C1032',
@@ -148,7 +149,7 @@
           });
 
 
-        $mdThemingProvider.theme('default').primaryPalette('tactwork').accentPalette('green');
+        $mdThemingProvider.theme('default').primaryPalette('tactwork');
     }])
     // where to redirect users if they need to authenticate (see security.js)
     .constant('loginRedirectPath', '/login')
@@ -159,7 +160,7 @@
     .run(function($http, $templateCache){
       // Pre-fetch icons sources by URL and cache in the $templateCache...
       // subsequent $http calls will look there first.
-      var urls = [ 'images/icons/svg-sprite-navigation.svg', 'images/icons/svg-sprite-action.svg', 'images/icons/svg-sprite-action.svg', 'images/icons/svg-sprite-av.svg', 'images/icons/svg-sprite-content.svg', 'images/icons/svg-sprite-file.svg', 'images/icons/svg-sprite-device.svg', 'images/icons/svg-sprite-social.svg', 'images/icons/svg-sprite-editor.svg', 'images/icons/svg-sprite-image.svg', 'images/svg/avatars.svg'];
+      var urls = [ 'images/icons/svg-sprite-navigation.svg', './images/PRODUCTION.svg', 'images/icons/svg-sprite-action.svg', 'images/icons/svg-sprite-action.svg', 'images/icons/svg-sprite-av.svg', 'images/icons/svg-sprite-content.svg', 'images/icons/svg-sprite-file.svg', 'images/icons/svg-sprite-device.svg', 'images/icons/svg-sprite-social.svg', 'images/icons/svg-sprite-editor.svg', 'images/icons/svg-sprite-image.svg', 'images/svg/avatars.svg'];
       angular.forEach(urls, function(url) {
         $http.get(url, {cache: $templateCache});
       });

@@ -167,12 +167,12 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @font-face {
-  font-family: 'dubtronic_inlineregular';
-  src: url('../../fonts/Dubtronic-Inline-webfont.eot');
-  src: url('../../fonts/Dubtronic-Inline-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../../fonts/Dubtronic-Inline-webfont.ttf') format('truetype'),
-       url('../../fonts/Dubtronic-Inline-webfont.woff') format('woff'),
-       url('../../fonts/Dubtronic-Inline-webfont.svg#dubtronic_inlineregular') format('svg');
+  font-family: 'Droid Serif';
+  src: url('../../fonts/DroidSerif-webfont.eot');
+  src: url('../../fonts/DroidSerif-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/DroidSerif-webfont.ttf') format('truetype'),
+       url('../../fonts/DroidSerif-webfont.woff') format('woff'),
+       url('../../fonts/DroidSerif-webfont.svg#dubtronic_inlineregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
