@@ -265,7 +265,7 @@ $button-fab-padding: rem(1.60) !default;
 html, body {
   height: 100%;
   color: rgba(0,0,0,0.87);
-  background: white;
+  background: url(../images/repeats/cardboard-flat.png) repeat;
   position: relative;
 }
 
@@ -1479,7 +1479,7 @@ md-bottom-sheet {
           }
         }
       }
-      
+
       @media screen and (max-width: $layout-breakpoint-sm) {
         @include grid-items-per-row(3, true);
       }
@@ -3687,7 +3687,7 @@ md-list-item {
     position: relative;
     padding: $list-item-padding-vertical $list-item-padding-horizontal;
     flex: 1 1 auto;
-    
+
     &.md-button {
       font-size: inherit;
       height: inherit;
@@ -5456,7 +5456,7 @@ md-switch {
     @include rtl(margin-left, inherit, 0);
     @include rtl(margin-right, 0, inherit);
   }
-  
+
   &[disabled] {
     cursor: default;
 
