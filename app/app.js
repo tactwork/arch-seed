@@ -127,6 +127,7 @@
     .config(['$mdThemingProvider', function ($mdThemingProvider) {
       $mdThemingProvider
         .definePalette('tactwork', {
+<<<<<<< HEAD
             '50': '#f9f9f9',
             '100': '#f5f5f5',
             '200': '#e0e0e0',
@@ -137,6 +138,18 @@
             '700': '#2A184B',
             '800': '#1C1032',
             '900': '#AB1852',
+=======
+            '50': 'f9f9f9',
+            '100': 'f5f5f5',
+            '200': 'e0e0e0',
+            '300': 'EDE7F6',
+            '400': '212121',
+            '500': '181818', //teal 500
+            '600': 'AB1852', //darker shade of deep-purple 500 & md-hue-2
+            '700': '2A184B',
+            '800': '1C1032',
+            '900': '0e0819',
+>>>>>>> parent of d00e7db... updated template to stl.cool and ES6
             'A100': '#E0E0E0', //background color theme.
             'A200': '#24ECC1', //5E35B0
             'A400': '#AB1852',
@@ -145,11 +158,15 @@
                                                 // on this palette should be dark or light
             'contrastDarkColors': ['50', '100', //hues which contrast should be 'dark' by default
              '200', '400', 'A100', 'A700'],
-            'contrastLightColors': 'dark'    // cou ld also specify this if default was 'dark'
+            'contrastLightColors': 'dark'    // could also specify this if default was 'dark'
           });
 
 
+<<<<<<< HEAD
         $mdThemingProvider.theme('default').primaryPalette('tactwork');
+=======
+        $mdThemingProvider.theme('default').primaryPalette('light-blue').accentPalette('green');
+>>>>>>> parent of d00e7db... updated template to stl.cool and ES6
     }])
     // where to redirect users if they need to authenticate (see security.js)
     .constant('loginRedirectPath', '/login')
