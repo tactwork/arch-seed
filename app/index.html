@@ -3,43 +3,56 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tactwork</title>
-
-    <!-- Disable tap highlight on IE -->
-    <meta name="msapplication-tap-highlight" content="no">
-
-    <!-- Web Application Manifest -->
-    <link rel="manifest" href="manifest.json">
-
+    <title>tactwork.com</title>
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Tactwork">
     <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
 
-    <!-- Add to homescreen for Safari on iOS -->
+      <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Tactwork">
+<<<<<<< HEAD
     <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
    <!-- Tile icon for Win8 (144x144 + tile color) -->
    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
    <meta name="msapplication-TileColor" content="#2F3BA2">
+=======
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
 
-  <!-- Color the status bar on mobile devices -->
-  <meta name="theme-color" content="#2F3BA2">
-  <link rel="stylesheet" type="text/css" href="styles/fnts.css">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+    <link rel="stylesheet" type="text/css" href="styles/fnts.css">
+>>>>>>> parent of 77ba82c... updated pictures and did some minor ui tweaks
 
 
-  <link rel="stylesheet" type="text/css" href="styles/angular-material.css">
+    <link rel="stylesheet" type="text/css" href="styles/angular-material.css">
 
-  <link rel="stylesheet" type='text/css' href="styles/main.css">
+    <link rel="stylesheet" type='text/css' href="styles/main.css">
+    <!--
+      <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic" rel='stylesheet' type='text/css'>
+    -->
 
   </head>
   <body ng-controller="AppCtrl" layout="row" ng-cloak>
+<<<<<<< HEAD
     <md-sidenav layout="column" class="md-sidenav-left" md-component-id="left">
 
+=======
+    <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
+      <md-toolbar class="md-whiteframe-z1">
+        <div class="md-toolbar-tools">
+         <span class="warn">testing</span>
+        </div>
+      </md-toolbar>
+      <header>
+        <h1>tactwork</h1>
+        <img src="/images/svg/icon.svg" class="chat-placeholder">
+      </header>
+>>>>>>> parent of 77ba82c... updated pictures and did some minor ui tweaks
       <ul class="menu">
         <li><a href="#/home">home</a></li>
         <li><a href="#/chat">chat</a></li>
@@ -47,8 +60,14 @@
         <li ng-show="loggedIn"><a href="#/account">account</a></li>
       </ul>
     </md-sidenav>
+<<<<<<< HEAD
     <div layout="column" flex>
       <md-toolbar class="md-primary md-whiteframe-z1">
+=======
+
+    <div layout="column" flex layout-align="space-between center">
+      <md-toolbar class="md-whiteframe-z1">
+>>>>>>> parent of 77ba82c... updated pictures and did some minor ui tweaks
         <div class="md-toolbar-tools">
           <md-button ng-click="toggleLeft()"  class="md-icon-button" aria-label="Settings">
             <md-icon md-svg-icon="navigation:ic_menu_24px"></md-icon>
@@ -60,11 +79,26 @@
             <md-icon md-svg-icon="navigation:ic_menu_24px"></md-icon>
           </md-button>
 
+<<<<<<< HEAD
           <md-button class="md-fab" aria-label="Favorite">
+=======
+          <md-button aria-label="Go Back">
+            {{loggedIn}}
+          </md-button>
+          <h2>
+
+          </h2>
+          <span flex></span>
+          <md-button class="md-button md-raised" aria-label="Learn More">
+            tactwork
+          </md-button>
+          <md-button class="md-fab md-mini" aria-label="Favorite">
+>>>>>>> parent of 77ba82c... updated pictures and did some minor ui tweaks
             <md-icon md-svg-icon="action:ic_favorite_border_24px"></md-icon>
           </md-button>
         </div>
       </md-toolbar>
+<<<<<<< HEAD
       <md-content flex ng-view>
 
       </md-content>
@@ -110,6 +144,12 @@
         </a>
       </header>
     </md-sidenav>
+=======
+      <md-content ng-view>
+
+      </md-content>
+    </div>
+>>>>>>> parent of 77ba82c... updated pictures and did some minor ui tweaks
 
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.min.js"></script>
