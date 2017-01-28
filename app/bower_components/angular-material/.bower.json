@@ -1,0 +1,24 @@
+{
+  "name": "angular-material",
+  "ignore": [],
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-animate": "^1.4.8",
+    "angular-aria": "^1.4.8",
+    "angular-messages": "^1.4.8"
+  },
+  "main": [
+    "angular-material.js",
+    "angular-material.css"
+  ],
+  "homepage": "https://github.com/angular/bower-material",
+  "_release": "5ab84fa669",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "5ab84fa669859188874684655a06595184403056"
+  },
+  "_source": "https://github.com/angular/bower-material.git",
+  "_target": "master",
+  "_originalSource": "https://github.com/angular/bower-material.git"
+}
